@@ -19,6 +19,7 @@ public class SpringDemo {
 		//获取实体类
 		User user= (User)factory.getBean("user");
 		System.out.println(user);
+		//修改
 	}
 	//2. （方便）直接得到IOC容器对象 
 	@Test
