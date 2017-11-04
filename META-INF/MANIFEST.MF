@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: struts
+Bundle-SymbolicName: struts
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.oracle.entity,
+ com.oracle.interceptor,
+ com.oracle.spring,
+ com.struts.action

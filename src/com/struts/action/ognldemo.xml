@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+	<struts>
+    <constant name="struts.ui.theme" value="simple"></constant>
+	<package name="ognldemo" extends="struts-default">
+			<action name="ognlaction_*" class="com.struts.action.OgnlDemo" method="{1}">
+				<result name="success" type="redirect">/user_logind?username=${request.username}</result>
+			</action>
+		</package>
+	</struts>
